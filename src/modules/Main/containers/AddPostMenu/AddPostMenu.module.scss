@@ -1,0 +1,24 @@
+.addPostMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 8px;
+  border: 1.5px solid var(--lightGrey);
+  border-top: none;
+}
+
+.container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.postActions {
+  min-width: 350px;
+}
+
+.avatar {
+  width: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}

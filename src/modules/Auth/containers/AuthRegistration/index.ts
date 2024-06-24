@@ -1,0 +1,1 @@
+export { AuthRegistration } from './AuthRegistration.tsx';

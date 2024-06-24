@@ -1,0 +1,44 @@
+@import "src/core/assets/colors/colors";
+
+.routes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.route {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 1rem;
+  text-decoration: none;
+
+  &:hover .title {
+    color: var(--primaryBlue);
+  }
+
+  &:hover .image {
+    filter: grayscale(0);
+  }
+}
+
+.image {
+  max-width: 10%;
+  filter: grayscale(1);
+  transition: .3s all;
+}
+
+.profileImage {
+  max-width: 10%;
+  border-radius: 50%;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  transition: .3s all;
+  margin: 0;
+  color: var(--dark);
+}
+

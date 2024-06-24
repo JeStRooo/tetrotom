@@ -1,0 +1,51 @@
+.registration {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registrationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  width: 400px;
+}
+
+.title {
+  margin: 0;
+  font-size: 42px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.registrationInputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.submitContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth {
+
+}
+
+.signup {
+  text-decoration: none;
+  margin-left: 5px;
+  color: var(--lightBlue);
+}

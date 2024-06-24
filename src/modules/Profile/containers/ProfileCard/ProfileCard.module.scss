@@ -1,0 +1,43 @@
+.profileCard {
+  width: 100%;
+  border: 1.5px solid var(--lightGrey);
+  border-top: none;
+  box-sizing: border-box;
+}
+
+.colorBlock {
+  width: 100%;
+  height: 200px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 8px;
+}
+
+.profileImage {
+  position: absolute;
+  width: 150px;
+  border-radius: 50%;
+  bottom: 55px;
+  border: 4px solid var(--darkWhite)
+}
+
+.userNames {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.userName {
+  line-height: 26px;
+  margin: 0;
+}
+
+.nickName {
+  color: var(--normalGray);
+  font-size: 14px;
+  margin: 0;
+}
